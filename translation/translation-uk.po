@@ -1,0 +1,944 @@
+# Ukrainian translation for grub-customizer
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the grub-customizer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grub-customizer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-03-22 22:43+0100\n"
+"PO-Revision-Date: 2016-04-11 17:41+0000\n"
+"Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-04-21 19:28+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
+
+#: src/Controller/MainController.hpp:629
+msgid "Name the Entry"
+msgstr "Назва Пункту"
+
+#: src/Controller/MainController.hpp:715
+msgid "cannot move this entry"
+msgstr "не вдається перемістити цей запис"
+
+#: src/Controller/MainController.hpp:834
+msgid "Configuration has been saved"
+msgstr "Конфігурацію збережено"
+
+#: src/Controller/MainController.hpp:839
+msgid "updating configuration"
+msgstr "оновлення конфігурації"
+
+#: src/View/Gtk/About.hpp:53
+msgid ""
+"Grub Customizer is a graphical interface to configure the grub2/burg settings"
+msgstr "Grub Customizer - це графічна оболонка для конфігурації grub2/burg"
+
+#: src/View/Gtk/Element/List.hpp:135 src/View/Gtk/Main.hpp:897
+msgid "script"
+msgstr "сценарій"
+
+#: src/View/Gtk/Element/List.hpp:137 src/View/Gtk/Main.hpp:888
+msgid "submenu"
+msgstr "підменю"
+
+#: src/View/Gtk/Element/List.hpp:139 src/View/Gtk/Main.hpp:891
+msgid "placeholder"
+msgstr "заповнювач"
+
+#: src/View/Gtk/Element/List.hpp:141 src/View/Gtk/Main.hpp:886
+msgid "menuentry"
+msgstr "меню запис"
+
+#: src/View/Gtk/Element/List.hpp:144
+msgid "script: %1"
+msgstr "скрипт: %1"
+
+#: src/View/Gtk/Element/List.hpp:148
+msgid "default name: %1"
+msgstr "типова назва: %1"
+
+#: src/View/Gtk/Element/List.hpp:152
+msgid "partition: %1"
+msgstr "розділ: %1"
+
+#: src/View/Gtk/Element/List.hpp:156
+msgid "ISO-Image: "
+msgstr "ISO-Образ: "
+
+#: src/View/Gtk/Element/List.hpp:160
+msgid "Memtest-Image: "
+msgstr ""
+
+#: src/View/Gtk/Element/PartitionChooser.hpp:53
+msgid "current"
+msgstr "поточне"
+
+#: src/View/Gtk/EntryEditor.hpp:58 src/View/Gtk/EnvEditor.hpp:53
+msgid "_Type:"
+msgstr "_Тип:"
+
+#: src/View/Gtk/EntryEditor.hpp:59
+msgid "Boot sequence"
+msgstr ""
+
+#: src/View/Gtk/EntryEditor.hpp:60
+msgid "_Name:"
+msgstr ""
+
+#: src/View/Gtk/EntryEditor.hpp:61
+msgid ""
+"Error building boot sequence.\n"
+"Check parameters!"
+msgstr ""
+
+#: src/View/Gtk/EntryEditor.hpp:68
+msgid "Entry editor"
+msgstr "Редактор запису"
+
+#: src/View/Gtk/EntryEditor.hpp:204
+msgid "Choose…"
+msgstr "Вибрати…"
+
+#: src/View/Gtk/EntryEditor.hpp:315 src/View/Gtk/EntryEditor.hpp:323
+#: src/View/Gtk/EntryEditor.hpp:342
+msgid "Other"
+msgstr "Інше"
+
+#: src/View/Gtk/EntryEditor.hpp:316 src/View/Gtk/EntryEditor.hpp:325
+#: src/View/Gtk/EntryEditor.hpp:344 src/View/Gtk/Main.hpp:566
+msgid "(script code)"
+msgstr "(код сценарію)"
+
+#: src/View/Gtk/EntryEditor.hpp:424
+msgid "Choose file…"
+msgstr "Вибрати файл…"
+
+#: src/View/Gtk/EntryEditor.hpp:436
+msgid "_Partition"
+msgstr "_Розділ"
+
+#: src/View/Gtk/EntryEditor.hpp:438
+msgid "_Initial ramdisk"
+msgstr "_Первинний ОЗУ диск"
+
+#: src/View/Gtk/EntryEditor.hpp:440
+msgid "_Linux image"
+msgstr "_Linux образ"
+
+#: src/View/Gtk/EntryEditor.hpp:442
+msgid "_Memtest image"
+msgstr "Образ _Тесту пам'яті"
+
+#: src/View/Gtk/EntryEditor.hpp:444
+msgid "Path to iso file"
+msgstr "Шлях до файлу образу"
+
+#: src/View/Gtk/EntryEditor.hpp:446
+msgid "Kernel params"
+msgstr "Параметри ядра"
+
+#: src/View/Gtk/EntryEditor.hpp:448
+msgid "I_SO image"
+msgstr "I_SO образ"
+
+#: src/View/Gtk/EntryEditor.hpp:450
+msgid "_Memtest-Image"
+msgstr ""
+
+#: src/View/Gtk/EnvEditor.hpp:52
+msgid "_Partition:"
+msgstr "_Розділ:"
+
+#: src/View/Gtk/EnvEditor.hpp:54
+msgid "Submountpoints:"
+msgstr "Додаткова точка монтування:"
+
+#: src/View/Gtk/EnvEditor.hpp:55
+msgid "save this configuration"
+msgstr "зберегти ці налаштування"
+
+#: src/View/Gtk/EnvEditor.hpp:84
+msgid "Grub 2"
+msgstr "Grub 2"
+
+#: src/View/Gtk/EnvEditor.hpp:85
+msgid "BURG"
+msgstr "BURG"
+
+#: src/View/Gtk/EnvEditor.hpp:258
+msgid "Mount failed!"
+msgstr "Помилка монтування!"
+
+#: src/View/Gtk/EnvEditor.hpp:259
+msgid "umount failed!"
+msgstr "помилка відмонтування!"
+
+#: src/View/Gtk/EnvEditor.hpp:260
+msgid "This seems not to be a root file system (no fstab found)"
+msgstr "Це не основна (root) файлова система (файл fstab не знайдено)"
+
+#: src/View/Gtk/EnvEditor.hpp:261
+msgid "Couldn't mount the selected partition"
+msgstr "Неможливо змонтувати обраний розділ"
+
+#: src/View/Gtk/EnvEditor.hpp:262
+msgid "Couldn't umount the selected partition"
+msgstr "Неможливо відмонтувати обраний розділ"
+
+#: src/View/Gtk/Error.hpp:31 src/View/Gtk/Error.hpp:33
+msgid "An error occurred"
+msgstr "Сталася помилка"
+
+#: src/View/Gtk/Error.hpp:32
+msgid ""
+"please Inform the author about this problem. The following information could "
+"be helpful:"
+msgstr ""
+"будь ласка, повідомте автора про цю проблему. Наступна інформація може бути "
+"корисна для вирішення проблеми:"
+
+#: src/View/Gtk/Error.hpp:36
+msgid "continue (risk data loss)"
+msgstr "продовжити (є ризик втратити дані)"
+
+#: src/View/Gtk/Installer.hpp:36
+msgid ""
+"Install the bootloader to MBR and put some\n"
+"files to the bootloaders data directory\n"
+"(if they don't already exist)."
+msgstr ""
+"Встановлення завантажувача до MBR \n"
+"та переміщення деяких файлів до\n"
+"його каталогу (якщо їх ще нема)."
+
+#: src/View/Gtk/Installer.hpp:37
+msgid "_Device: "
+msgstr "_Пристрій: "
+
+#: src/View/Gtk/Installer.hpp:47
+msgid "Install to MBR"
+msgstr "Встановити до MBR"
+
+#: src/View/Gtk/Installer.hpp:68
+msgid "The bootloader has been installed successfully"
+msgstr "Завантажувач успішно встановлено"
+
+#: src/View/Gtk/Installer.hpp:72
+msgid "Error while installing the bootloader"
+msgstr "Виникла помилка при встановленні завантажувача"
+
+#: src/View/Gtk/Installer.hpp:89
+msgid "installing the bootloader…"
+msgstr "встановлюю завантажувач..."
+
+#: src/View/Gtk/Installer.hpp:93
+msgid "Please type a device string!"
+msgstr "Будь ласка, введіть рядок пристрою!"
+
+#: src/View/Gtk/Main.hpp:99
+msgid "_File"
+msgstr "_Файл"
+
+#: src/View/Gtk/Main.hpp:104
+msgid "_Edit"
+msgstr "_Правка"
+
+#: src/View/Gtk/Main.hpp:105
+msgid "_View"
+msgstr "_Вигляд"
+
+#: src/View/Gtk/Main.hpp:106
+msgid "_Help"
+msgstr "_Допомога"
+
+#: src/View/Gtk/Main.hpp:107
+msgid "_Install to MBR …"
+msgstr "_Встановити в MBR …"
+
+#: src/View/Gtk/Main.hpp:129
+msgid "_Show details"
+msgstr "_Детальніше"
+
+#: src/View/Gtk/Main.hpp:130
+msgid "Show _hidden entries"
+msgstr "Показати _приховані пункти"
+
+#: src/View/Gtk/Main.hpp:131
+msgid "_Group by Script"
+msgstr "_Групувати за сценарієм"
+
+#: src/View/Gtk/Main.hpp:132
+msgid "Show _Placeholders"
+msgstr "Показати _мітки"
+
+#: src/View/Gtk/Main.hpp:134
+msgid "BURG found!"
+msgstr "Знайдено BURG!"
+
+#: src/View/Gtk/Main.hpp:135 src/View/Gtk/Main.hpp:136
+msgid "advanced settings"
+msgstr "розширені налаштування"
+
+#: src/View/Gtk/Main.hpp:139
+msgid ""
+"The modifications you've done affects the visible entries. Please reload!"
+msgstr ""
+"Зміни які були внесені впливають на видимі записи. Будь ласка, "
+"перезавантажте!"
+
+#: src/View/Gtk/Main.hpp:140
+msgid "Script updates found. Click save to apply the changes!"
+msgstr "Знайдено оновлення сценаріїв. Натисніть, щоб застосувати зміни!"
+
+#: src/View/Gtk/Main.hpp:152
+msgid "_List configuration"
+msgstr "_Налаштування списку"
+
+#: src/View/Gtk/Main.hpp:187
+msgid "Remove selected entries (you can restore them from trash)"
+msgstr "Вилучити обрані записи (є змога відновити їх зі смітника)"
+
+#: src/View/Gtk/Main.hpp:197
+msgid "Move up the selected entry or script"
+msgstr "Перемістити вгору обраний пункт чи сценарій"
+
+#: src/View/Gtk/Main.hpp:199
+msgid "Move down the selected entry or script"
+msgstr "Перемістити вниз обраний пункт чи сценарій"
+
+#: src/View/Gtk/Main.hpp:205
+msgid "remove this entry from the current submenu"
+msgstr "вилучити цей запис із поточного підменю"
+
+#: src/View/Gtk/Main.hpp:208
+msgid "add this entry to a new submenu"
+msgstr "додати цей запис до нового підменю"
+
+#: src/View/Gtk/Main.hpp:231
+msgid "Reverts the list to the default order"
+msgstr "Повернути стандартне сортування списку"
+
+#: src/View/Gtk/Main.hpp:233
+msgid "reloads the configuration. Unsaved changes will be preserved."
+msgstr "перезавантажити налаштування. Незбережені дані буде законсервовано."
+
+#: src/View/Gtk/Main.hpp:277
+msgid "Rename"
+msgstr "Перейменувати"
+
+#: src/View/Gtk/Main.hpp:278 src/View/Gtk/Main.hpp:279
+msgid "Move up"
+msgstr "Перемістити вгору"
+
+#: src/View/Gtk/Main.hpp:280 src/View/Gtk/Main.hpp:281
+msgid "Move down"
+msgstr "Перемістити вниз"
+
+#: src/View/Gtk/Main.hpp:282 src/View/Gtk/Main.hpp:283
+msgid "Remove from submenu"
+msgstr "Вилучити з підменю"
+
+#: src/View/Gtk/Main.hpp:284 src/View/Gtk/Main.hpp:285
+msgid "Create submenu"
+msgstr "Створити підменю"
+
+#: src/View/Gtk/Main.hpp:300
+msgid "_Change Environment …"
+msgstr "_Змінити середовище …"
+
+#: src/View/Gtk/Main.hpp:307
+msgid "Do you want to configure BURG instead of grub2?"
+msgstr "Бажаєте налаштувати BURG замість grub2 ?"
+
+#: src/View/Gtk/Main.hpp:374
+msgid "_General settings"
+msgstr "_Загальні налаштування"
+
+#: src/View/Gtk/Main.hpp:381
+msgid "_Appearance settings"
+msgstr "Налаштування _вигляду"
+
+#: src/View/Gtk/Main.hpp:434
+msgid "BURG Mode"
+msgstr "Режим BURG"
+
+#: src/View/Gtk/Main.hpp:438
+msgid "Save configuration and generate a new %1"
+msgstr ""
+
+#: src/View/Gtk/Main.hpp:535
+msgid "loading configuration…"
+msgstr "Завантаження конфігурації..."
+
+#: src/View/Gtk/Main.hpp:537
+msgid "loading script %2/%3 (%1)"
+msgstr "завантаження скрипту %2/%3 (%1)"
+
+#: src/View/Gtk/Main.hpp:550
+msgid "Proxy binary not found!"
+msgstr "Бінарний код проксі-сервера не знайдено!"
+
+#: src/View/Gtk/Main.hpp:551
+msgid ""
+"You will see all entries (uncustomized) when you run grub. This error accurs "
+"(in most cases), when you didn't install grub gustomizer currectly."
+msgstr ""
+"Вам будуть видимі всі записи (неналаштовані) під час виконання grub. Ця "
+"помилка виникає (у більшості випадків), якщо grub gustomizer не було "
+"встановлено належним чином."
+
+#: src/View/Gtk/Main.hpp:558
+msgid "(incoming Entries of %1)"
+msgstr "(вхідні Записи %1)"
+
+#: src/View/Gtk/Main.hpp:560
+msgid "(incoming Entries)"
+msgstr "(вхідні Записи)"
+
+#: src/View/Gtk/Main.hpp:579
+msgid "The saved configuration is not up to date!"
+msgstr "Збережена кофігурація застарілої версії!"
+
+#: src/View/Gtk/Main.hpp:580
+msgid ""
+"The generated configuration didn't equal to the saved configuration on "
+"startup. So what you see now may not be what you see when you restart your "
+"pc. To fix this, click update!"
+msgstr ""
+"Створена конфігурація не збігається зі збереженою конфігурацією при запуску. "
+"Тому те, що ви бачите зараз, може відрізнятися від того, що буде при "
+"перезавантаженні вашого ПК. Щоб виправити це, натисніть \"Оновити\"!"
+
+#: src/View/Gtk/Main.hpp:583
+msgid "_Quit without update"
+msgstr "_Вийти без оновлення"
+
+#: src/View/Gtk/Main.hpp:586
+msgid "_Update & Quit"
+msgstr "_Оновити та Вийти"
+
+#: src/View/Gtk/Main.hpp:590
+msgid "Do you want to save your modifications?"
+msgstr "Бажаєте зберегти внесені зміни?"
+
+#: src/View/Gtk/Main.hpp:593
+msgid "_Quit without saving"
+msgstr "_Вихід без збереження"
+
+#: src/View/Gtk/Main.hpp:596
+msgid "_Save & Quit"
+msgstr "_Зберегти та Вийти"
+
+#: src/View/Gtk/Main.hpp:599
+msgid "AND: your modifications are still unsaved, update will save them too!"
+msgstr "ТАКОЖ: Ваші зміни все ще не збережені, оновлення збереже їх теж!"
+
+#: src/View/Gtk/Main.hpp:620
+msgid "Failed saving grub configuration!"
+msgstr "Не вдалося зберегти налаштування Grub!"
+
+#: src/View/Gtk/Main.hpp:621
+msgid "The grub configuration cannot be saved"
+msgstr "Не вдалося зберегти конфігурацію GRUB"
+
+#: src/View/Gtk/Main.hpp:622
+msgid ""
+"Please take a look at the command line output below. If you think this is a "
+"bug of Grub Customizer, please create one at %1! Generally Grub Customizer "
+"should prevent errors like this."
+msgstr ""
+"Будь ласка, перегляньте вивід командного рядка. Якщо Ви вважаєте це помилкою "
+"Grub Customizer, будь ласка, повідомте про неї на %1! Взагалі Grub "
+"Customizer повинен уникати подібних помилок."
+
+#: src/View/Gtk/Main.hpp:628
+msgid ""
+"%1 couldn't be executed successfully. error message:\n"
+" %2"
+msgstr ""
+"%1 не може бути виконаним правильно. Повідомлення про помилку:\n"
+" %2"
+
+#: src/View/Gtk/Main.hpp:630
+msgid "Environment settings"
+msgstr "Налаштування середовища"
+
+#: src/View/Gtk/Main.hpp:644
+msgid "Do you want to proceed without saving the current configuration?"
+msgstr "Бажаєте продовжити без збереження поточних налаштувань?"
+
+#: src/View/Gtk/Main.hpp:645
+msgid "There are unsaved modifications!"
+msgstr "Є незбережені зміни!"
+
+#: src/View/Gtk/Main.hpp:697
+msgid ""
+"Removing Script Code can cause problems when trying to boot entries relying "
+"on it. Are you sure you want to do it anyway?"
+msgstr ""
+"Знищення Коду Скрипту може бути причиною проблем завантаження записів, що "
+"покладаються на нього. Впевнені, що бажаєте продовжити?"
+
+#: src/View/Gtk/Main.hpp:707
+msgid ""
+"You're trying to remove an entry of the currently running system. Make sure "
+"there are other working entries of this system!\n"
+"If you just want to remove old kernels: The better way is uninstalling them "
+"instead of just hiding them in boot menu."
+msgstr ""
+"Ви намагаєтесь знищити запис поточної системи. Впевніться, що існує "
+"додатковий робочий запис поточної системи!\n"
+"Якщо бажаєте лише знищити старі ядра: Найкраще рішення це вилучити їх з "
+"допомогою менеджера пакунків, замість приховування в меню завантаження."
+
+#: src/View/Gtk/Main.hpp:887
+msgid ""
+"An menuentry which is visible at the grub menu and boots an operating system "
+"when activated."
+msgstr ""
+"Видимий та увімкнений пункт меню в GRUB завантажує операційну систему."
+
+#: src/View/Gtk/Main.hpp:889
+msgid ""
+"A group of other operating systems. Grub shows it as a normal menuentry "
+"however when clicking it, it loads another menu which allows you to choose "
+"one the the containing menuentries."
+msgstr ""
+"Група інших операційних систем. GRUB показує її як стандартний пункт меню, "
+"клацнувши на якому, відбувається завантаження іншого меню, яке дозволяє вам "
+"вибрати необхідні пункти меню."
+
+#: src/View/Gtk/Main.hpp:892
+msgid ""
+"There are two types of this special entry: Incoming entries are the place "
+"where Grub Customizer places new operating systems which are found by grub "
+"but still not configured using Grub Customizer. The Script code is code "
+"generated by grub which doesn't look like an menuentry. In most cases it's "
+"used to configure grub. You should only touch it when knowing what it does. "
+"Placeholders are hidden by default."
+msgstr ""
+"Надаються два типи особливих пунктів меню: пункти, що вводяться - місця "
+"розміщення нових операційних систем, які були виявлені GRUB, але не "
+"налаштовані з використанням Grub Customizer. Код сценарію - це код створений "
+"GRUB, що не становить собою пункт меню. У більшості випадків "
+"використовується для налаштування GRUB. Ви можете вносити в нього зміни, "
+"тільки якщо знаєте, що робите . Типово мітки приховані."
+
+#: src/View/Gtk/Main.hpp:898
+msgid ""
+"Scripts are generating menuentries. So every menuentry belongs to a script. "
+"They are shown as top level groups when activated. However in contrast to "
+"submenus they aren't shown at the boot menu."
+msgstr ""
+"Сценарії створюють пункти меню. Таким чином, кожному пункту меню відповідає "
+"певний сценарій. Вони відображаються в якості груп верхнього рівня, якщо "
+"така можливість задіяна. Однак на відмінну від підменю, вони не "
+"відображаються в меню завантаження."
+
+#: src/View/Gtk/Main.hpp:905
+msgid "About the entry types"
+msgstr "Детальніше про типи пунктів"
+
+#: src/View/Gtk/Main.hpp:957
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+#: src/View/Gtk/Main.hpp:958
+msgid "This removes all your list modifications of the bootloader menu!"
+msgstr "Це знищить всі ваші зміни для меню завантаження!"
+
+#: src/View/Gtk/Settings.hpp:113
+msgid "pre_defined: "
+msgstr "попередньо _визначений: "
+
+#: src/View/Gtk/Settings.hpp:114
+msgid "previously _booted entry"
+msgstr "попередній _завантажений запис"
+
+#: src/View/Gtk/Settings.hpp:115
+msgid "default entry"
+msgstr "типовий запис"
+
+#: src/View/Gtk/Settings.hpp:116
+msgid "visibility"
+msgstr "вигляд"
+
+#: src/View/Gtk/Settings.hpp:117
+msgid "show menu"
+msgstr "показувати меню"
+
+#: src/View/Gtk/Settings.hpp:118
+msgid "kernel parameters"
+msgstr "параметри ядра"
+
+#: src/View/Gtk/Settings.hpp:119
+msgid "generate recovery entries"
+msgstr "генерувати запис відновлення системи"
+
+#: src/View/Gtk/Settings.hpp:120
+msgid "look for other operating systems"
+msgstr "шукати інші операційні системи"
+
+#: src/View/Gtk/Settings.hpp:121
+msgid "custom resolution: "
+msgstr "власне розширення: "
+
+#: src/View/Gtk/Settings.hpp:125
+msgid "settings"
+msgstr "налаштування"
+
+#: src/View/Gtk/Settings.hpp:129
+msgid "_General"
+msgstr "_Загальне"
+
+#: src/View/Gtk/Settings.hpp:130
+msgid "A_ppearance"
+msgstr "Зовнішній _вигляд"
+
+#: src/View/Gtk/Settings.hpp:131
+msgid "_Advanced"
+msgstr "Д_одатково"
+
+#: src/View/Gtk/Settings.hpp:144
+msgid "is active"
+msgstr "є активним"
+
+#: src/View/Gtk/Settings.hpp:145
+msgid "name"
+msgstr "назва"
+
+#: src/View/Gtk/Settings.hpp:146
+msgid "value"
+msgstr "значення"
+
+#: src/View/Gtk/Settings.hpp:204
+msgid "Boot default entry after %1 Seconds"
+msgstr "Завантажити пункт меню за умовчанням через %1 секунд"
+
+#: src/View/Gtk/Settings.hpp:297
+msgid "(first entry)"
+msgstr ""
+
+#: src/View/Gtk/Settings.hpp:299
+msgid "(other…)"
+msgstr ""
+
+#: src/View/Gtk/Settings.hpp:459
+msgid ""
+"This option doesn't work when the \"os-prober\" script finds other operating "
+"systems. Disable \"%1\" if you don't need to boot other operating systems."
+msgstr ""
+"Цей параметр не працює коли сценарій \"os-prober\" знаходить інші операційні "
+"системи. Деактивуйте \"%1\" якщо не потрібно завантажувати інші операційні "
+"системи."
+
+#: src/View/Gtk/Settings.hpp:666
+msgid ""
+"This option allows choosing the operating system which should be selected "
+"when booting. By default this always is the first one. This option means "
+"that the default entry selection stays the same when placing other operating "
+"systems there.\n"
+"\n"
+"In contrast to the first option the other choices are referenced by name. So "
+"the default system isn't changed when moving to another position.\n"
+"\n"
+"If you want to use another reference like \"always point to the second "
+"entry\" you can use the last option which allows typing a custom reference. "
+"Usage examples:\n"
+" 1 = \"always point to the second entry\" (counting starts by 0)\n"
+" test>0 = \"always point to the first entry of a submenu named test\""
+msgstr ""
+
+#: src/View/Gtk/Theme.hpp:114
+msgid "white"
+msgstr "білий"
+
+#: src/View/Gtk/Theme.hpp:115
+msgid "yellow"
+msgstr "жовтий"
+
+#: src/View/Gtk/Theme.hpp:116
+msgid "light-cyan"
+msgstr "світло-блакитний"
+
+#: src/View/Gtk/Theme.hpp:117
+msgid "cyan"
+msgstr "блакитний"
+
+#: src/View/Gtk/Theme.hpp:118
+msgid "light-blue"
+msgstr "світло-синій"
+
+#: src/View/Gtk/Theme.hpp:119
+msgid "blue"
+msgstr "синій"
+
+#: src/View/Gtk/Theme.hpp:120
+msgid "light-green"
+msgstr "світло-зелений"
+
+#: src/View/Gtk/Theme.hpp:121
+msgid "green"
+msgstr "зелений"
+
+#: src/View/Gtk/Theme.hpp:122
+msgid "light-magenta"
+msgstr "світло-пурпурний"
+
+#: src/View/Gtk/Theme.hpp:123
+msgid "magenta"
+msgstr "пурпурний"
+
+#: src/View/Gtk/Theme.hpp:124
+msgid "light-red"
+msgstr "світло-червоний"
+
+#: src/View/Gtk/Theme.hpp:125
+msgid "red"
+msgstr "червоний"
+
+#: src/View/Gtk/Theme.hpp:126
+msgid "brown"
+msgstr "коричневий"
+
+#: src/View/Gtk/Theme.hpp:127
+msgid "light-gray"
+msgstr "світло-сірий"
+
+#: src/View/Gtk/Theme.hpp:128
+msgid "dark-gray"
+msgstr "темно-сірий"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "transparent"
+msgstr "прозорість"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "black"
+msgstr "чорний"
+
+#: src/View/Gtk/Theme.hpp:210
+msgid "_Load file: "
+msgstr "_Завантажити файл: "
+
+#: src/View/Gtk/Theme.hpp:213
+msgid "_Theme:"
+msgstr "_Тема:"
+
+#: src/View/Gtk/Theme.hpp:214
+msgid "background image"
+msgstr "зображення тла"
+
+#: src/View/Gtk/Theme.hpp:218
+msgid "Please choose a background image!"
+msgstr "Будь ласка, виберіть зображення тла!"
+
+#: src/View/Gtk/Theme.hpp:221
+msgid "_Font"
+msgstr "_Шрифт"
+
+#: src/View/Gtk/Theme.hpp:224
+msgid "choose theme file"
+msgstr "виберіть файл теми"
+
+#: src/View/Gtk/Theme.hpp:225
+msgid "Theme contents"
+msgstr "Вміст теми"
+
+#: src/View/Gtk/Theme.hpp:226
+msgid "Custom Theme settings"
+msgstr "Додаткові налаштування теми"
+
+#: src/View/Gtk/Theme.hpp:227
+msgid "Normal: Font"
+msgstr "Стандартний: Шрифт"
+
+#: src/View/Gtk/Theme.hpp:228
+msgid "Normal: Background"
+msgstr "Стандартне: Тло"
+
+#: src/View/Gtk/Theme.hpp:229
+msgid "Highlighted: Font"
+msgstr "Виділений: Шрифт"
+
+#: src/View/Gtk/Theme.hpp:230
+msgid "Highlighted: Background"
+msgstr "Виділене: Тло"
+
+#: src/View/Gtk/Theme.hpp:301
+msgid "File"
+msgstr "Файл"
+
+#: src/View/Gtk/Theme.hpp:312
+msgid "add theme"
+msgstr "додати тему"
+
+#: src/View/Gtk/Theme.hpp:313
+msgid "delete this theme"
+msgstr "вилучити дану тему"
+
+#: src/View/Gtk/Theme.hpp:325
+msgid "Archive files"
+msgstr "Архівні файли"
+
+#: src/View/Gtk/Theme.hpp:330
+msgid "All files"
+msgstr "Всі файли"
+
+#: src/View/Gtk/Theme.hpp:374
+msgid "remove font"
+msgstr "вилучити шрифт"
+
+#: src/View/Gtk/Theme.hpp:393
+msgid "remove background"
+msgstr "вилучити тло"
+
+#: src/View/Gtk/Theme.hpp:501
+msgid "(Custom Settings)"
+msgstr "(Налаштування користувача)"
+
+#: src/View/Gtk/Theme.hpp:554
+msgid "The chosen file cannot be loaded as theme"
+msgstr "Обраний файл не може бути завантажений як тема"
+
+#: src/View/Gtk/Theme.hpp:557
+msgid "The given filename cannot be used"
+msgstr "Дане ім'я файлу не може бути використано"
+
+#: src/View/Gtk/Theme.hpp:560
+msgid ""
+"This theme doesn't contain a %1. Please look for the config file and rename "
+"it to \"%1\"!"
+msgstr ""
+
+#: src/View/Gtk/Theme.hpp:563
+msgid "Saving of themes didn't succeed completely!"
+msgstr "Збереження теми виконано не повністю!"
+
+#: src/View/Gtk/Theme.hpp:566
+msgid "File replacement failed. Please select a theme file first!"
+msgstr "Помилка заміни файлу. Будь ласка, виберіть файл теми!"
+
+#: src/View/Gtk/Theme.hpp:587
+msgid "filename"
+msgstr "назва файлу"
+
+#: src/View/Gtk/Theme.hpp:624
+msgid ""
+"please note: large fonts on low boot screen resolutions can corrupt the boot "
+"screen\n"
+"Because this problem depends on chosen font, it isn't possible to define a "
+"general maximum. When you're trying to select a larger font, please do it in "
+"small steps (rebooting and checking the results).\n"
+"The problem occurs when the grub gui elements (borders, description) wont "
+"fit into screen. So while there's enough vertical space you can try a larger "
+"font. The mass of menuentries is not a problem - they are scrolled if "
+"required.\n"
+"\n"
+"The corruption results in a endless loading time of grub2. You need a live "
+"cd to fix this:\n"
+" * delete the font from (MOUNT)/boot/grub/unicode.pf2\n"
+" * reboot your system (menu should show up with default fonts)\n"
+" * open /etc/default/grub with root permissions and place a '#' in front of "
+"the line containing GRUB_FONT\n"
+" * then run grub customizer to choose the font used before"
+msgstr ""
+"примітка: великі шрифти задіяні при завантаженні з низькою роздільною "
+"здатністю можуть призвести до неможливості використання екрану завантаження\n"
+"У зв'язку з цією несправністю, в залежності від обраного шрифту, неможливо "
+"визначити допустимий максимальний шрифт. Коли ви хочете вибрати крупний "
+"шрифт, збільшуйте його крупність поступово (перезавантажуючи і перевіряючи "
+"результат).\n"
+"Несправність відбувається, коли елементи графічного інтерфейсу GRUB (межі, "
+"опис) не можуть бути розміщені на екрані. Таким чином, коли досить вільного "
+"місця по вертикалі ви можете спробувати збільшити шрифт. Велика кількість "
+"пунктів меню не є проблемою, ви можете прокрутити їх.\n"
+"\n"
+"Результати несправності полягають в безперервному завантаженні GRUB2. Щоб "
+"виправити це, Вам знадобитися Live CD:\n"
+" * вилучити шрифт (MOUNT)/boot/grub/unicode.pf2\n"
+" * перезавантажте ваш комп'ютер (меню повинно відображатися з використанням "
+"типових шрифтів)\n"
+" * відкрийте /etc/default/grub від імені суперкористувача (ROOT) і "
+"розмістіть '#' на початку рядка GRUB_FONT\n"
+" * після чого запустіть Grub Customizer, щоб вибрати використаний раніше "
+"шрифт"
+
+#: src/View/Gtk/Theme.hpp:636
+msgid "Grub fonts can be harmful (Info)"
+msgstr "Шрифти Grub можуть призвести до несправностей (Інформація)"
+
+#: src/View/Gtk/Theme.hpp:857
+msgid "Are you sure you want to remove this theme"
+msgstr "Ви справді бажаєте вилучити цю тему"
+
+#: src/View/Gtk/Theme.hpp:931
+msgid ""
+"Alternatively to the simple theme method which provides some options like "
+"color, wallpaper and font you can install complex theme packages to get an "
+"even better looking boot menu.\n"
+"\n"
+"There are several download sources like this thread at ubuntuforums.org:\n"
+"<a href='%1'>%1</a> (needs account)\n"
+"or search for '%2' at <a href='%3'>%3</a>\n"
+"\n"
+"Just download such a package (which is in tar.gz format in most cases) and "
+"add it to the list of available themes by using the add button next to the "
+"theme chooser.\n"
+"\n"
+"After changing the theme you'll see a simple editor which gives a preview of "
+"images and allows some file management. Modified theme contents will be "
+"saved when you're pressing the save button."
+msgstr ""
+
+#: src/View/Gtk/Trash.hpp:55
+msgid "Add entry from trash"
+msgstr "Додати запис зі смітника"
+
+#: src/View/Gtk/Trash.hpp:59
+msgid "Removed items"
+msgstr "Вилучені елементи"
+
+#: src/View/Gtk/Trash.hpp:69
+msgid "_Restore"
+msgstr "_Відновити"
+
+#: src/View/Gtk/Trash.hpp:71
+msgid "Restore selected entries"
+msgstr "Відновити вибрані пункти меню"
+
+#: src/View/Gtk/Trash.hpp:76
+msgid "permanently delete selected entries"
+msgstr "назавжди вилучити вибрані пункти меню"
+
+#: src/View/Gtk/Trash.hpp:84
+msgid ""
+"delete entries permanently - this action is available on custom entries only"
+msgstr ""
+"вилучити пункти меню назавжди - ця дія доступна лише для пунктів меню "
+"користувача"
+
+#: src/View/Gtk/Trash.hpp:159
+msgid "This deletes the following entries:"
+msgstr "Це вилучить такі записи:"
+
+#: src/main/client.cpp:98
+msgid "Linux"
+msgstr "Linux"
+
+#: src/main/client.cpp:99
+msgid "Linux-ISO"
+msgstr "Linux-ISO"
+
+#: src/main/client.cpp:100
+msgid "Chainloader"
+msgstr "Chainloader"
+
+#: src/main/client.cpp:101
+msgid "Memtest"
+msgstr "Тест пам'яті"
